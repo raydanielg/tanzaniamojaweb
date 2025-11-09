@@ -21,7 +21,7 @@
     </head>
     <body
         class="relative min-h-screen flex items-center justify-center text-white"
-        style="background-image: url('{{ Vite::asset('resources/assets/img/bg1.jpg') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;"
+        style="background-image: url('{{ asset('images/bg1.jpg') }}'); background-size: cover; background-position: center; background-repeat: no-repeat;"
     >
         <div class="absolute inset-0 bg-black/30"></div>
 
